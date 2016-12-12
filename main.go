@@ -7,12 +7,12 @@ import (
 	"github.com/jpillora/opts"
 )
 
-var VERSION = "0.0.0-src" //set with ldflags
+var VERSION = "0.8.16-src" //set with ldflags
 
 func main() {
 	s := server.Server{
 		Title:      "Cloud Torrent",
-		Port:       3000,
+		Port:       45682,
 		ConfigPath: "cloud-torrent.json",
 	}
 
